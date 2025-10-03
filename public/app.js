@@ -49,3 +49,26 @@ function carregarCards() {
 }
 
 carregarCards();
+
+
+function carregarDetalhes() {
+  const container = document.getElementById('detalhes-container');
+  if (!container) return;
+  const urlParams = new URLSearchParams(window.location.search);
+  const itemId = parseInt(urlParams.get('id'));
+  const item = dados.find(dado => dado.id === itemId);
+  if (item) {
+    container.innerHTML = `
+      <div class="col-md-8 offset-md-2">
+        <img src="${item.imagem}" class="img-fluid rounded mb-4" alt="${item.titulo}">
+        <h1 class="mb-3">${item.titulo}</h1>
+        <p class="lead">${item.conteudo}</p>
+        <a href="index.html" class="btn btn-secondary mt-4">Voltar para a Home</a>
+      </div>
+    `;
+  } else {
+    container.innerHTML = "<p>Item não encontrado.</p>";
+  }
+}
+
+carregarDetalhes();
