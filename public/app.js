@@ -35,10 +35,10 @@ function carregarCards() {
       <div class="col-md-6 col-lg-4">
         <div class="card shadow-sm h-100">
           <img src="${item.imagem}" class="card-img-top" alt="${item.titulo}">
-          <div class="card-body">
+          <div class="card-body d-flex flex-column">
             <h5 class="card-title">${item.titulo}</h5>
             <p class="card-text">${item.descricao}</p>
-            <a href="detalhes.html?id=${item.id}" class="btn btn-primary">Ver Mais</a>
+            <a href="detalhes.html?id=${item.id}" class="btn btn-primary mt-auto">Ver Mais</a>
           </div>
         </div>
       </div>
