@@ -50,7 +50,7 @@ const dados = [
     "titulo": "Estádio Mineirão",
     "descricao": "Palco de grandes jogos e shows, o Gigante da Pampulha é um ícone do futebol brasileiro.",
     "conteudo": "Inaugurado em 1965, o Estádio Governador Magalhães Pinto, o Mineirão, é um dos maiores e mais importantes templos do futebol mundial. Foi palco de jogos históricos, incluindo partidas da Copa do Mundo de 2014. Além das partidas de futebol, o estádio recebe grandes shows e eventos. Os visitantes podem conhecer o Museu Brasileiro do Futebol, que fica em seu interior, e fazer um tour para ver de perto os bastidores do Gigante da Pampulha.",
-    "imagem": "img/mineirao.jpg"
+    "imagem": "img/mineirao2.jpg"
   }
 ];
 ```
